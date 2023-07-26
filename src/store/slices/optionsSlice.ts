@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 interface OptionsState {
   [key: string]: string[];
@@ -7,7 +7,7 @@ interface OptionsState {
 const initialState: OptionsState = {};
 
 export const optionsSlice = createSlice({
-  name: 'options',
+  name: "options",
   initialState,
   reducers: {
     setOptions(state, action) {

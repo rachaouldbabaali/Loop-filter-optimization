@@ -6,7 +6,6 @@ import { useSelector } from "react-redux";
 import { updateDataTable } from "../store/slices/dataTableSlice";
 import _ from "lodash";
 
-
 const Data = require("../data/dataset_small.csv");
 
 interface CSVDataRow {
@@ -70,7 +69,7 @@ const DataTableComp: React.FC = () => {
       setData(fetchedData);
       dispatch(updateDataTable(fetchedData));
     }
-  }, [filter, fetchedData, dispatch , options]);
+  }, [filter, fetchedData, dispatch, options]);
 
   return (
     <>
