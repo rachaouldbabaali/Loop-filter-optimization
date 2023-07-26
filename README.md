@@ -71,7 +71,7 @@ Main features of the App are:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[N/A]
+[Live Demo](https://64c10a5288f05965c015f331--voluble-paprenjak-7162ef.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
