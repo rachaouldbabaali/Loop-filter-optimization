@@ -76,7 +76,7 @@ const DataTableComp: React.FC = () => {
         columns={columns}
         data={data}
         pagination
-        paginationPerPage={20}
+        paginationPerPage={100}
         highlightOnHover
         striped
         dense
@@ -84,6 +84,7 @@ const DataTableComp: React.FC = () => {
         fixedHeaderScrollHeight="80vh"
         selectableRows
         selectableRowsHighlight
+
       />
     </>
   );
