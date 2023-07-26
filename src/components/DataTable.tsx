@@ -31,7 +31,6 @@ const DataTableComp: React.FC = () => {
   const [columns, setColumns] = useState<any[]>([]);
 
   useEffect(() => {
-    console.log("test to day 3");
     (async () => {
       try {
         const response = await fetch(Data);
@@ -65,7 +64,6 @@ const DataTableComp: React.FC = () => {
       setData(filteredData);
       dispatch(updateDataTable(filteredData));
     } else {
-      console.log("test here also", options);
       setData(fetchedData);
       dispatch(updateDataTable(fetchedData));
     }
