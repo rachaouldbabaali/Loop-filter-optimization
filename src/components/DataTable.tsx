@@ -76,7 +76,7 @@ const DataTableComp: React.FC = () => {
         columns={columns}
         data={data}
         pagination
-        paginationPerPage={100}
+        paginationPerPage={20}
         paginationRowsPerPageOptions={[20, 100, 200, 500]}
         highlightOnHover
         striped
